@@ -20,6 +20,7 @@ const Cart = () => {
             bgHoverColor="light-gray"
             size="2xl"
             borderRadius="50%"
+            aria-label="close"
           />
         </div>
         {cartData?.map((item, index) => (
