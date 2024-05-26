@@ -33,6 +33,7 @@ const Sidebar = () => {
                   setActiveMenu((prevActiveMenu) => !prevActiveMenu)
                 }
                 className="text-xl rounded-full p-3 hover:bg-light-gray mt-4 nlock md:hidden"
+                aria-label="close"
               >
                 <MdOutlineCancel />
               </button>
