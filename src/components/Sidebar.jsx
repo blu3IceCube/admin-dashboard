@@ -21,6 +21,11 @@ const Sidebar = () => {
               <SiShopware />
               <span>Shop</span>
             </Link>
+            <TooltipComponent content="Menu" position="BottomCenter">
+              <button>
+                <MdOutlineCancel />
+              </button>
+            </TooltipComponent>
           </div>
         </>
       )}
