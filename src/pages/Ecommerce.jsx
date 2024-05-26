@@ -199,7 +199,7 @@ const Ecommerce = () => {
             <p className="text-xl font-semibold">Recent Transactions</p>
             <DropDown currentMode={currentMode} />
           </div>
-          <div className="mt-10 w-72 md:w-400">
+          <div className="mt-10 w-72 md:w-[300px]">
             {recentTransactions.map((item) => (
               <div key={item.title} className="flex justify-between mt-4">
                 <div className="flex gap-4">
@@ -235,7 +235,7 @@ const Ecommerce = () => {
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
           </div>
         </div>
-        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+        <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-[695px]">
           <div className="flex justify-between items-center gap-2 mb-10">
             <p className="text-xl font-semibold">Sales Overview</p>
             <DropDown currentMode={currentMode} />
