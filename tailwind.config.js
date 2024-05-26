@@ -39,7 +39,8 @@ module.exports = {
         590: "590px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/welcome-bg.svg')",
+        "hero-pattern":
+          "url('https://raw.githubusercontent.com/blu3IceCube/admin-dashboard/main/public/images/welcome-bg.svg')",
       },
     },
   },
